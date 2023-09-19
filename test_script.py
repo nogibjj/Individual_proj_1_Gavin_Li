@@ -1,6 +1,6 @@
 """Tests for main go here"""
 
-from main import f
+from script import f
 
 def test_main():
     assert(1 == 1)
