@@ -7,6 +7,7 @@ Same as notebook
 from lib import get_desc_stats, get_hist
 import pandas as pd
 
+
 def main():
     df = pd.read_csv("./resources/train.csv")
     # get_desc_stats(df, "Survived")
