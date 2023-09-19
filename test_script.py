@@ -4,5 +4,4 @@ from script import main
 
 def test_main():
     assert(1 == 1)
-    main()
-    # f()
+    assert main() == 0
