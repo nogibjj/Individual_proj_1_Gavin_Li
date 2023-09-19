@@ -14,5 +14,5 @@ uvicorn
 ## data science
 pandas
 matplotlib
-
+nbval
 
