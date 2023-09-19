@@ -1,37 +1,37 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
+[![CI](https://github.com/nogibjj/Gavin_Li_Week3_Mini_Project/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Gavin_Li_Week3_Mini_Project/actions/workflows/cicd.yml)
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
+# IDS 706 Data Engineering Week 3 Mini Project
 
+## Purpose of the Project
 
+The purpose of this week's mini project is to transform last week's project from using pandas to using polars, so that I will be familiar with both of these two data analysis packages.
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+## Template
 
-Things included are:
+For this week's mini project, I used a template that is slightly different than the one used for the first two weeks.
 
-* `Makefile`
+This template lints code using `ruff` instead of `pylint`, which was used in the previous two mini projects.
 
-* `Pytest`
+### `make test` result
 
-* `pandas`
+![Make_test_result](./resources/make_test.png)
 
-* `Ruff`:  
+### `make lint` result
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+![Make_lint_result](./resources/make_lint.png)
 
-* `Dockerfile`
+## Descriptive Statistics using Python Polars
 
-* `GitHub copilot`
+1. Read the csv file at `./resources/train.csv` using `polars.read_csv()` function
 
-* `jupyter` and `ipython` 
+2. Generated sumamry statistics for variable `Survived` in the `Titanic` dataset using `.median()`, `.mean()`, `.std()` function. The result is as follow:
 
-* A base set of libraries for devops and web
+![Summary_stats](./resources/desc_stats.png)
 
-* `githubactions`
+3. Generated histogram for variable `Survived` in the `Titanic` dataset using `matplotlib.pyplot`.
+
+![Histogram](./resources/hist.png)
 
 ## References
 
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
-
-
-
+[Professor Noah's ruff template](https://github.com/nogibjj/python-ruff-template)
