@@ -13,4 +13,5 @@ def test_get_desc_stats():
     assert round(di["std"], 4) == 0.4866
 
 def test_get_hist():
-    get_hist()
+    df = pd.read_csv("./resources/train.csv")
+    get_hist(df, "Survived")
