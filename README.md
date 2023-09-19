@@ -13,6 +13,10 @@ For this project, I use the ruff template as the foundation of my repo.
 
 This template lints code using `ruff` instead of `pylint`, which was used in the first two mini projects.
 
+### `make format` result
+
+![Make_format_result](./resources/make_format.png)
+
 ### `make test` result
 
 ![Make_test_result](./resources/make_test.png)
