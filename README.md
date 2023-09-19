@@ -1,3 +1,7 @@
+[![CI](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/install.yml)
+[![CI](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/format.yml)
+[![CI](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/lint.yml)
+[![CI](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Individual_proj_1_Gavin_Li/actions/workflows/test.yml)
 
 # IDS 706 Data Engineering Individual Project # 1
 
