@@ -13,6 +13,6 @@ uvicorn
 
 ## data science
 pandas
-
+matplotlib
 
 
