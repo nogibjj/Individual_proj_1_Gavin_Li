@@ -4,5 +4,10 @@
 Same as notebook
 """
 
-def f():
-    print()
+from lib import get_desc_stats, get_hist
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
