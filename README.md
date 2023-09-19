@@ -21,7 +21,7 @@ This template lints code using `ruff` instead of `pylint`, which was used in the
 
 ![Make_lint_result](./resources/make_lint.png)
 
-## Descriptive Statistics using Python Pandas
+## Descriptive Statistics using Python Pandas in both python script and jupyter notebook
 
 1. Read the csv file at `./resources/train.csv` using `pandas.read_csv()` function
 
