@@ -19,7 +19,7 @@ This template lints code using `ruff` instead of `pylint`, which was used in the
 
 ### `make test` result
 
-![Make_test_result](./resources/make_test.png)
+![Make_test_result](./resources/make_result.png)
 
 ### `make lint` result
 
