@@ -5,4 +5,4 @@ Same as notebook
 """
 
 def f():
-    print(d)
+    print()
