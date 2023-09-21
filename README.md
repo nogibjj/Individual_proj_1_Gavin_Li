@@ -7,6 +7,10 @@
 
 Gavin Li `gl183`
 
+## Video Link
+
+[The link for the demo video](https://youtu.be/u9MoUnZqlRo)
+
 ## Purpose of the Project
 
 The purpose of the individual project #1 is to conduct data analysis using either Pandas or Polars in both Jupyter Notebook and python script. I use Pandas to conduct the analysis.
